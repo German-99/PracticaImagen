@@ -8,8 +8,10 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
-            
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
         </Grid.RowDefinitions>
-        <Image Name="imgdjango" Source="django1.jpg" strech></Image>
+        <Image Name="imgdjango" Source="django1.jpg" strech="UniformToFill" Grid.Row="0"</Image>
+            <Button Name="btnCambiarImagen" Click="btnCambiarImagen_Click" Grid.Row="1">Cambiar Imagen</Button>
     </Grid>
 </Window>

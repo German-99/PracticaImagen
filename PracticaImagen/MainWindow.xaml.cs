@@ -26,3 +26,9 @@ namespace PracticaImagen
         }
     }
 }
+private void btnCambiarImagen_Click(object sender, RoutedEventArgs e)
+{
+    imgSpace.Source = new BitmapImage(new Uri(@"C:\Users\alumno\Desktop\django2.jpg"));
+}
+    }
+}
